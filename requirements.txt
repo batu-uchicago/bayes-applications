@@ -4,9 +4,11 @@ matplotlib
 seaborn
 pandas
 jupyterlab
+ipywidgets
 scikit-learn
 pymc
 arviz
 networkx
-pgmpy
+pgmpy>=1.1.2,<1.3
+graphviz
 tqdm
