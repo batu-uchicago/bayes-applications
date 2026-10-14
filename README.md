@@ -5,11 +5,11 @@ Class activities and notebooks for Bayesian Machine Learning at the University o
 ## Contents
 
 - **Bayes Nets/** - Bayesian networks: structure, inference, and learning
-- **Bayesian Inference/** - priors and posteriors for a coin: five hypotheses and their MAP estimate (`map.ipynb`), then a beta prior (`beta.ipynb`)
+- **Bayesian Inference/** - priors and posteriors for a coin: five hypotheses and their MAP estimate (`map.ipynb`), then a beta prior (`beta.ipynb`); and a loan officer who decides by expected utility (`credit_loan.ipynb`)
 
 ## Setup
 
-The Bayes net and MAP notebooks have an "Open in Colab" badge at the top, which runs them in the browser with nothing to install.
+The Bayes net, MAP and credit loan notebooks have an "Open in Colab" badge at the top, which runs them in the browser with nothing to install.
 To run the notebooks on your own laptop, follow the steps below.
 
 ### 1. Install Graphviz
