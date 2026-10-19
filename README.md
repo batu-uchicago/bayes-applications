@@ -6,10 +6,11 @@ Class activities and notebooks for Bayesian Machine Learning at the University o
 
 - **Bayes Nets/** - Bayesian networks: structure, inference, and learning
 - **Bayesian Inference/** - priors and posteriors for a coin: five hypotheses and their MAP estimate (`map.ipynb`), then a beta prior (`beta.ipynb`); and a loan officer who decides by expected utility (`credit_loan.ipynb`)
+- **Bayesian Changepoint Detection/** - when did the market change? Bayesian online changepoint detection on the daily returns of the Istanbul stock exchange and of an energy fund (`change_point_detect.ipynb`, with its data file `imkb.csv`)
 
 ## Setup
 
-The Bayes net, MAP and credit loan notebooks have an "Open in Colab" badge at the top, which runs them in the browser with nothing to install.
+The Bayes net, MAP, credit loan and changepoint notebooks have an "Open in Colab" badge at the top, which runs them in the browser with nothing to install.
 To run the notebooks on your own laptop, follow the steps below.
 
 ### 1. Install Graphviz
