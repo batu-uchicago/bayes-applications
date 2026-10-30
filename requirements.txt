@@ -13,3 +13,4 @@ pgmpy>=1.1.2,<1.3
 graphviz
 tqdm
 yfinance
+hmmlearn>=0.3.2
