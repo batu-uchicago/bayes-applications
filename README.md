@@ -9,10 +9,11 @@ Class activities and notebooks for Bayesian Machine Learning at the University o
 - **Bayesian Changepoint Detection/** - when did the market change? Bayesian online changepoint detection on the daily returns of the Istanbul stock exchange and of an energy fund (`change_point_detect.ipynb`, with its data file `imkb.csv`)
 - **Hidden Markov Models/** - calm and turbulent days in the S&P 500: the forward, backward and Viterbi algorithms on the moody friend, then a Gaussian HMM of daily returns, fit by Baum-Welch, with the number of states chosen by BIC (`sp500_hmm.ipynb`; the prices come from Yahoo Finance through `yfinance`)
 - **Markov Chain Monte Carlo/** - PyMC on three models: a straight line with Normal noise, sampled by Metropolis and then NUTS, next to least squares; the same line with Rician noise, as in MRI; and weight from height, McElreath's geometric people on Nancy Howell's !Kung San census (`mcmc.ipynb`, with its data file `Howell1.csv`)
+- **Variational Autoencoders/** - taming the latent space: a VAE with a latent space of two numbers, trained on the MNIST handwritten digits, then its reconstructions, the test digits in the latent space, what the decoder draws across it, and new digits from draws of the prior (`VAE_example.ipynb`; PyTorch downloads the pictures on the first run)
 
 ## Setup
 
-The Bayes net, MAP, credit loan, changepoint, hidden Markov model and MCMC notebooks have an "Open in Colab" badge at the top, which runs them in the browser with nothing to install.
+The Bayes net, MAP, credit loan, changepoint, hidden Markov model, MCMC and VAE notebooks have an "Open in Colab" badge at the top, which runs them in the browser with nothing to install.
 To run the notebooks on your own laptop, follow the steps below.
 
 ### 1. Install Graphviz

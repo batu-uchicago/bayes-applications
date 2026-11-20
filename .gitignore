@@ -7,3 +7,6 @@ __pycache__/
 # graphviz output from notebook visualization cells
 Bayes Nets/student_pgm*
 Bayes Nets/*.pdf
+
+# MNIST, downloaded by the VAE notebook
+Variational Autoencoders/data/

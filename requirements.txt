@@ -14,3 +14,5 @@ graphviz
 tqdm
 yfinance
 hmmlearn>=0.3.2
+torch
+torchvision
